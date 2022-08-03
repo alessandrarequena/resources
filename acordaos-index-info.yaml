@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: acordao-completo
+  description: Índice solr que contém os acórdãos do TCU desde 1992. 
+spec:
+  type: solr
+  owner: seint
+  system: plataforma-acompanhamento-compras
